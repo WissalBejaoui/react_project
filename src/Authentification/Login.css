@@ -1,0 +1,34 @@
+.login{
+    display: grid;
+    place-items: center;
+}
+
+.loginContainer{
+    background-color: white;
+    padding: 50px;
+    margin:25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loginContainer>img{
+    height: 250px;
+    object-fit: contain;
+}
+.loginContainer>button{
+    padding:15px;
+    border-radius: 999px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: black;
+}
+.loginContainer>button:hover{
+    border: 1px solid blue; 
+    outline: none;
+}
+.loginContainer>p{
+    font-size: 25px;
+}

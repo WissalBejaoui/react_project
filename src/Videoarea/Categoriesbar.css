@@ -1,0 +1,30 @@
+ .categoriesBar{  
+    border: 1.5px solid yellow;  
+    display: flex;
+    overflow-x:scroll;
+    padding: 10px 0;
+    font-size: 15px;  
+}
+.categoriesBar::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+}
+
+.categoriesBar>span{
+    margin-right: 10px;
+    padding: 3px;
+    border: 1px solid;    
+    border-radius: 999px;
+    white-space: nowrap;
+
+}
+.categoriesBar>span:hover{
+ background-color: lightgrey;   
+ cursor: pointer;
+}
+
+.active{
+    color: #fff;
+    background-color:rgb(163, 159, 159);
+    border-color: lightrgb(163, 159, 159)grey;
+}

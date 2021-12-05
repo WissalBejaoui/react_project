@@ -1,0 +1,26 @@
+.searchPage{ 
+    flex:0.8;
+    padding: 10px 10px ;
+    padding-bottom: 0px;
+    border: 1px solid green;
+}
+
+.filtersIcon{
+    display: flex;
+    align-items: center;
+    color: #181717;
+}
+
+.filtersIcon> h2{
+    margin-left: 8px;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+.searchPage>hr{
+    height: 1px;
+    margin-top: 11px;
+    margin-bottom: 8px;
+    background-color: rgb(214, 208, 208);
+}
+

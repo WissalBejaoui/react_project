@@ -1,0 +1,20 @@
+.Sidebar{
+    border: 1px solid black;
+    flex:0.2;
+    width: 20%;
+}
+
+.Home > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgrey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.Home> h6{
+    
+    margin-left: 35px;
+    font-size: 15px;
+    font-weight: 600;
+}

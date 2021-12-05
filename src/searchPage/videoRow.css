@@ -1,0 +1,32 @@
+.videoRow{
+   display: flex;
+   margin-bottom: 10px;
+}
+
+.text{
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+.text>p{
+    font-size: 15px; 
+    margin-top: 8px;
+    color:gray;
+}
+
+.channelSrc{
+    display: flex; 
+    align-items: center; 
+}
+.channelSrc>img{
+    height: 45px;  
+    width: 45px ;
+    border-radius: 60%;
+    margin-right: 15px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.channelSrc>p{
+    font-size: 15px;
+    font-weight:500; 
+}
